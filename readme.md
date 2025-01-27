@@ -30,10 +30,11 @@ python --version
 python -m pip install keyboard
 ```
 
-### Step 2 - Run the script (Optional - Skip to step 3 to run via bat)
-6. Download this as a zip. Unzip it and place the folder on your **Desktop**. (You can put it anywhere, but Desktop is easiest for most)
+7. Download this as a zip. Unzip it and place the folder on your **Desktop**. (You can put it anywhere, but Desktop is easiest for most)
 
 ![img.png](images/0.png)
+
+### Step 2 - Run the script (Optional - Skip to step 3 to run via bat)
 
 7. Still in powershell, you should be in the C drive, where your desktop lives. 
 
