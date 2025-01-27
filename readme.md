@@ -1,6 +1,8 @@
 # LoL Flash timer use
 
-This only works in windows 
+**_This only works in windows._** 
+
+Start a timer from 5 minutes when flash is used in game. Could be improved to consider runes and boots?
 
 ### Install python and keyboard
 1. Open Windows Powershell. You will type the next commands into this terminal.
@@ -25,7 +27,10 @@ python -m pip install keyboard
 ```
 
 ### Run the script 
-6. Download the zip file I sent. Unzip it and place the folder on your desktop.
+6. Download this as a zip. Unzip it and place the folder on your desktop.
+
+![img.png](images/0.png)
+
 7. Open powershell. It should open in the C drive for you, where the Desktop lives. 
 
 ![img.png](images/1.png)
