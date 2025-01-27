@@ -62,7 +62,7 @@ cd flash
 
 ![img.png](images/5.png)
 
-Slap this on a second monitor and you should be Challenger in 2 weeks
+Slap this on a second monitor, or put it over your game, and you should be Challenger in 2 weeks
 
 
 ### Step 3 - Running via Bat 
@@ -70,9 +70,10 @@ The steps above was just step by step. But you can run the script via bat.
 
 1. Open the `run_flash.bat` file. 
 2. Edit the path to point where you downloaded this repository. Ideally, the desktop.
-For me, it looks like `python C:\Users\Henry\Desktop\flash\flash_timer.py`
+For me, it looks like `python C:\Users\Henry\Desktop\flash\flash_timer.py`. Make sure to save it. 
+3. Move the bat file anywhere you like. Make sure to save it. Now you can double-click this bat file to run the script.
 
-Make sure to save it. Now you can double-click this bat file to run the script.
+It will start with Administrator privileges, this is so that your hot keys are picked up while having a game in focus.
 
 **Yes you will see a black terminal open and close immediately, I did not just hack you, this is so that **only** the flash timer app stays open instead of an additional black console windows. 
 

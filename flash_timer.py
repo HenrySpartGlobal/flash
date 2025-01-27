@@ -40,6 +40,10 @@ def start_flash_timer(index):
 root = tk.Tk()
 root.title("LoL Flash Timers")
 
+# So the app is always ontop of anything u have open
+root.attributes('-topmost', True)
+root.lift()
+
 
 # Create a frame to hold champion labels
 frame = tk.Frame(root)
