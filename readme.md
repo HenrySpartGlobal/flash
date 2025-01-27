@@ -4,6 +4,8 @@
 
 Start a timer from 5 minutes when flash is used in game. Could be improved to consider runes and boots?
 
+This will work even while you have League of legends open. No need to tab out.
+
 ### Install python and keyboard
 1. Open Windows Powershell. You will type the next commands into this terminal.
 2. Install Python via winget
