@@ -65,14 +65,13 @@ Slap this on a second monitor and you should be Challenger in 2 weeks
 
 
 ### Running this everyday 
-The steps above was just step by step. But you can run the script straight away as soon as ur powershell is open.
+The steps above was just step by step. But you can run the script via bat.
 
-1. To run this quickly everyday just copy and paste this into your powershell. (Assuming the folder is on your desktop)
+Open the `run_flash.bat` file. Edit the path to point where you downloaded this repository. Ideally, the desktop.
 
-```angular2html
-python .\Desktop\flash\flash_timer.py
-```
+For me, it looks like `python C:\Users\Henry\Desktop\flash\flash_timer.py`
 
+Make sure to save it. Now you can double-click this bat file to run the script.
 
 ### Change hot keys
 If you want to change the hot keys open the `flash_timer.py` (open with any text editor) - and update the `key_for_x` variables at the very top. 
