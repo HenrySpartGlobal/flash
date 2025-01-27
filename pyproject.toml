@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "flash"
+version = "0.1.0"
+description = "Track champion flash timers with F keys"
+authors = ["Henry Koleoso <henry_koleoso@hotmail.co.uk>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+keyboard = "^0.13.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
