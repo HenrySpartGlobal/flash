@@ -21,6 +21,8 @@ winget install python
 python --version
 ```
 
+![img.png](images/0.5.png)
+
 5. You should see a valid version, e.g. `Python 3.xx.x`
 6. This script needs the `keyboard` python library so install that in the same powershell window with:
 
@@ -29,11 +31,11 @@ python -m pip install keyboard
 ```
 
 ### Run the script 
-6. Download this as a zip. Unzip it and place the folder on your desktop.
+6. Download this as a zip. Unzip it and place the folder on your **Desktop**. (You can put it anywhere, but Desktop is easiest for most)
 
 ![img.png](images/0.png)
 
-7. Open powershell. It should open in the C drive for you, where the Desktop lives. 
+7. Still in powershell, you should be in the C drive, where your desktop lives. 
 
 ![img.png](images/1.png)
 
@@ -50,14 +52,16 @@ cd flash
 
 ![img.png](images/3.png)
 
-10. Then run the script `flash_timer.py`
-11. Type `python` then just press TAB, it should pick up the only python file in here. 
+10. Then run the script with `python .\flash_timer.py`
+11. OR `python` then just press **TAB**, it should pick up the only python file in here. 
 
 ![img.png](images/4.png)
 
 12. Then press enter to run, should open a small window. And the app is running 
 
 ![img.png](images/5.png)
+
+Slap this on a second monitor and you should be Challenger in 2 weeks
 
 
 ### Running this everyday 
