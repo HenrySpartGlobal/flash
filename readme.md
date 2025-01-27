@@ -6,7 +6,7 @@ Start a timer from 5 minutes when flash is used in game. Could be improved to co
 
 This will work even while you have League of legends open. No need to tab out.
 
-### Install python and keyboard
+### Step 1 - Install python and keyboard (Essential)
 1. Open Windows Powershell. You will type the next commands into this terminal.
 2. Install Python via winget
 
@@ -30,7 +30,7 @@ python --version
 python -m pip install keyboard
 ```
 
-### Run the script 
+### Step 2 - Run the script (Optional - Skip to step 3 to run via bat)
 6. Download this as a zip. Unzip it and place the folder on your **Desktop**. (You can put it anywhere, but Desktop is easiest for most)
 
 ![img.png](images/0.png)
@@ -64,14 +64,16 @@ cd flash
 Slap this on a second monitor and you should be Challenger in 2 weeks
 
 
-### Running this everyday 
+### Step 3 - Running via Bat 
 The steps above was just step by step. But you can run the script via bat.
 
-Open the `run_flash.bat` file. Edit the path to point where you downloaded this repository. Ideally, the desktop.
-
+1. Open the `run_flash.bat` file. 
+2. Edit the path to point where you downloaded this repository. Ideally, the desktop.
 For me, it looks like `python C:\Users\Henry\Desktop\flash\flash_timer.py`
 
 Make sure to save it. Now you can double-click this bat file to run the script.
+
+**Yes you will see a black terminal open and close immediately, I did not just hack you, this is so that **only** the flash timer app stays open instead of an additional black console windows. 
 
 ### Change hot keys
 If you want to change the hot keys open the `flash_timer.py` (open with any text editor) - and update the `key_for_x` variables at the very top. 
